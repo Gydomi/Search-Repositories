@@ -1,0 +1,20 @@
+header{
+    width: 100vw;
+    background-color: #0064EB;
+}
+.header_content {
+    background-color: #0064EB;
+    align-items: center;
+    height: 72px;
+    max-width: 1366px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+a.header_logo {
+        text-align: center;
+        height: 40.004547119140625px;
+        width: 40.98481369018555px;
+        margin: 16px 20.2px 16px 41px;
+}

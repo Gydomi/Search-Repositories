@@ -1,0 +1,48 @@
+input {
+    border-radius: 6px;
+    border:0px;
+    width: 500px;
+    height: 40px;
+    margin: 0px 41px 0px 0px;
+}
+input[type=text] {
+    padding-left:40px;
+    font-family: 'Inter', sans-serif;
+    line-height: 16.94px;
+    size: 14px;
+}
+.form-group img{
+    position: absolute;
+    margin: 13px 13px 13px 19px;
+    height: 14px;
+    width: 14px;
+}
+@media screen and (max-width: 768px) {
+    div.repo {
+        margin: 0px;
+    }
+    input {
+        max-width: 250px;
+        width: 100%;
+        margin: 0px 28px 0px 0px;
+    }
+    a.header_logo {
+        margin: 16px 20.2px 16px 28px;
+    }
+    .user__info {
+        max-width: 1366px;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    div.repo {
+        max-width: 500px;
+    }
+    div.info {
+        margin: 39px 0px 39px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+    };
+};

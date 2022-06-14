@@ -1,0 +1,20 @@
+.notrepo {
+    max-width: 877px;
+    width: 100%;
+    margin: 0px 57px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.notrepo img{
+    margin: 0px 0px 42px 0px;
+}
+.notrepo p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400px;
+    size: 22px;
+    line-height: 30.8px;
+    color: #808080;
+    text-align: center;
+}

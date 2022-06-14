@@ -1,0 +1,52 @@
+.info{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400px;
+}
+.user__info {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1366px;
+    margin: 0 auto;
+}
+.info {
+    max-width: 300px;
+    margin: 39px 0px 0px 57px;
+}
+.info .avatar{
+    border-radius: 150px;
+    width: 280px;
+    height: 280px;
+}
+.info h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600px;
+    line-height: 33.8px;
+    size: 26px;
+    margin: 29px 0 12px;
+}
+.info a{
+    line-height: 21.78px;
+    size: 18px;
+    color: #0064EB;
+	text-decoration: none;
+}
+
+a:hover{
+	color:#0064EB;
+}
+.follow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.follow div{
+    width: 150px;
+    line-height: 24px;
+    size: 16px;
+    margin: 25px 0px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.follow .followers{
+    margin: 25px 20px 0px 0px;
+}

@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #F9F9F9;
+    height: 100vh;
+}
+
+input:focus {
+    outline: none; 
+}
+
+@media screen and (max-width: 350px){
+    input {
+        max-width: 200px;
+        width: 100%;
+        margin: 0px 28px 0px 0px;
+    }
+    a.header_logo {
+        margin: 16px 20.2px 16px 28px;
+    }
+    .repo {
+        margin: 0;
+    }
+    .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    };
+}
+@import "../styles/components/header.css";
+@import "../styles/components/search.css";
+@import "../styles/components/userbio.css";
+@import "../styles/components/found.css";
+@import "../styles/components/notrepo.css";
+@import "../styles/components/repo.css";
+@import "../styles/components/loader.css";

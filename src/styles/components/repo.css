@@ -1,0 +1,34 @@
+.repo {
+    max-width: 877px;
+    width: 100%;
+    margin: 39px 57px 0px 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.repo h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600px;
+    line-height: 41.6px;
+    size: 32px;
+    margin:0px 0px 29px;
+}
+.repositories {
+    padding: 24px 32px;
+    margin: 24px 0px;
+    background-color:White;
+}
+.rep_name {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500px;
+    color: #0064EB;
+    line-height: 29.05px;
+    size: 24px;
+    margin:0px 0px 16px;
+}
+.inforep {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400px;
+    line-height: 19.36px;
+    size: 16px;
+}
